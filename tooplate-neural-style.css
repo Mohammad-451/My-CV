@@ -566,6 +566,22 @@ https://www.tooplate.com/view/2139-neural-portfolio
             z-index: 1;
         }
 
+        .project-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            margin-bottom: 15px;
+            border-radius: 12px;
+        }
+
+        .project-card img.small-cert {
+            width: 70%;
+            max-width: 260px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .project-card p {
             position: relative;
             z-index: 1;
@@ -629,7 +645,24 @@ https://www.tooplate.com/view/2139-neural-portfolio
             letter-spacing: 1px;
             text-transform: uppercase;
         }
-
+        .skill-node-small {
+            font-family: 'Audiowide', sans-serif;
+            width: 120px;
+            height: 120px;
+            background: var(--bg-glass);
+            border: 2px solid var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-weight: 400;
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
         .skill-node::before {
             content: '';
             position: absolute;
